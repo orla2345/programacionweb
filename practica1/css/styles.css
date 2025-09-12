@@ -5,7 +5,68 @@
 body {
     background-color: aliceblue;
 }
-header{
+#header{
     height: 70px;
-    background-color: rgb(25,25, 750,0,355);
+    background-color: rgba(255, 255, 255, 0.355);
 }
+#header #title{
+   width: 200px;
+   height: 30px;
+   background-color: brown;
+   margin-left: 20px;
+   margin-top: 20px;
+   float: left;
+}
+div#columna2{
+    background-color: rgb(102, 102, 102);
+    height: 300px;
+}
+div#columna2 div.cuadrito{
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    height: 70%;
+    margin-left: 50px;
+    margin-top: 50px;
+    float: left;
+}
+div#columna3{
+    background-color: rgb(130, 12, 12);
+    height: 200px;
+}
+div#columna3 div.cuadrito{
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    height: 65%;
+    margin-left: 170px;
+    margin-top: 40px;
+    float: left;
+   
+}
+div#columna4{
+    background-color: rgb(97, 97, 97);
+    height: 100px;
+}
+div#columna4 div.cuadrito{
+    background-color: rgb(255, 255, 255);
+    width: 10%;
+    height: 50%;
+    margin-right: 40px;
+    margin-top: 30px;
+    float: right;
+   
+}
+div#columna5{
+    background-color: rgb(110, 33, 33);
+    height: 100px;
+}
+div#columna5 div.cuadrito{
+    background-color: rgb(255, 255, 255);
+    width: 8%;
+    height: 50%;
+    margin-left: 46%;
+    margin-right: 46%;
+    margin-top: 20px;
+    float: right;
+   
+}
+
